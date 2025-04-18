@@ -1,1 +1,144 @@
- 
+/* Reset/Normalize */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+	line-height: 1.6;
+	background-color: #f9f9f9;
+	color: #333;
+	padding: 1rem;
+}
+
+header,
+footer {
+	background-color: #004080;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+}
+
+header img {
+	display: block;
+	margin: 0 auto 1rem;
+	max-width: 100%;
+	height: auto;
+}
+
+main {
+	max-width: 960px;
+	margin: 2rem auto;
+	padding: 1rem;
+	background: white;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+h1 {
+	color: #eee;
+}
+
+h2 {
+	color: #004080;
+}
+
+ul,
+ol {
+	padding-left: 1.5rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+	background-color: white;
+}
+
+a {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+address {
+	font-style: normal;
+}
+
+/* Dark Theme */
+body.dark-theme {
+	background-color: #1c1c1c;
+	color: #eee;
+}
+
+body.dark-theme header,
+body.dark-theme footer {
+	background-color: #333;
+	color: #fff;
+}
+
+body.dark-theme main {
+	background: #2a2a2a;
+}
+
+body.dark-theme a {
+	color: #66aaff;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	main {
+		margin: 1rem;
+		padding: 1rem;
+	}
+
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	header img {
+		width: 120px;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+	}
+
+	main {
+		padding: 0.5rem;
+	}
+
+	ul,
+	ol {
+		padding-left: 1rem;
+	}
+
+	address {
+		font-size: 0.9rem;
+	}
+}

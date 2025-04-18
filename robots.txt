@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Pinklemon87.github.io/bachelor-promoaction/sitemap.xml
